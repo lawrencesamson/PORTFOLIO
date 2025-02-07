@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+
+    }
+    .section{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .left-section{
+      display: flex;
+      width: 300px;
+    }
+    img{
+      width: 30px;
+      height: 30px;
+      padding-top: 28px;
+    }
+    .right-section{
+      display: flex;
+      justify-content: space-around;
+      width: 400px;
+      margin-top: 20px;
+    }
+    .wps{
+      width: 300px;
+    }
+    .section2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .name{
+      display: flex;
+      width: 200px;
+    }
+    .last-section{
+      display: flex;
+      flex-direction: row;
+      justify-content: space;
+    }
+    .kirk-imagehead{
+      width: 10px;
+      height: 10px;
+      object-fit: cover;
+    }
+    .kirk-image{
+      width: 20px;
+      height: 20px;
+      object-fit: cover;
+      border-radius:10px ;
+    }
+    .kirk-name{
+      width: 100px;
+      padding-top: 15px;
+      padding-left: 30px;
+      object-fit: cover;
+      height: 100px;
+    }
+    .coop{
+      width: 300px;
+      padding-left: 200px;
+    }
+    .dot{
+      width: 20px;
+      height: 20px;
+      padding-top: 125px;
+      border-radius: 10px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class=container>
+    <div class="section">
+      <div class="left-section">
+        <img src="/altschool/image/wps.png" alt="logo">
+        <h1 class="wps">WPS Pusher</h1>
+      </div>
+      <div class="right-section">
+        <p>Download</p>
+        <p>Learn more</p>
+        <p>Pricing</p>
+        <p>Help</p>
+        <p>Account</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section2">
+    <form><h2 class="checkout">Checkout</h2>
+      <h3><span>1</span> Your Basic Information</h3>
+      <div class="name">
+        <div>
+          <ul>
+            <li>
+              <label for="First Name">First Name</label>
+              <input type="text" name="First Name" id="First Name" placeholder="John">
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <label for="Last Name">Last Name</label>
+              <input type="text" name="Last Name" id="Last Name" placeholder="Doe">
+            </li>
+          </ul>
+        </div>        
+      </div>
+
+
+
+      <div>
+        <ul>
+          <li>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="johndoe@email.com">
+          </li>
+        </ul>
+      </div>
+
+<div><h3><span>2</span> Your Card Payment</h3></div>
+<div>
+  <ul>
+    <li>
+      <label for="Card Number">Card Number</label><br>
+      <input type="text" name="Card Number" id="Card Number" placeholder="1234 5678 9101 1121, MM/YY, CVV">
+    </li>
+  </ul>
+</div>
+
+<button type="buywppusher">Buy WP Pusher</button>
+
+<p>need any help don't hesitate to contact support</p>
+
+<p>powered by stripe</p>
+
+</form>
+
+  <div class="aside"><h3>Freelancer</h3>
+  <div><p><span class="price">99</span>/yr</p></div>
+  <div><p>auntomatically renews after 1 year</p></div>
+  <div><p><span class="checkmark">&#10004;</span> use on 5 client site</p></div>
+  <div><p><span class="checkmark">&#10004;</span>Private repositories</p></div>
+  <div><p><span class="checkmark">&#10004;</span></p>Email Support</div>
+
+  <div><p>need 20 client sites?</p></div>
+  <div><p><span class="underline">switch to the agnecy plan</span></p></div>
+  <div><p>FTP is horrible to deal with <br>WP Pusher solves that issue, <br>
+  and the customer support is awesome!</p></div>
+
+<div class="last-section">
+  <div class="kirk-imagehead">
+    <img class="kirk-image" src="/altschool/image/watch.jpg" alt="kirk">
+  </div>
+  <div class="kirk-name">
+    <p>Kirk Bird</p>
+  </div>
+</div>
+  </div>
+  
+</div>
+<div class="coop">
+  <p>&#169; 2018 WP PusherIVS <span class="dot">.</span> <span class="terms">terms of service</span></p>
+</div>
+
+</body>
+</html>

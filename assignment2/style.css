@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+}
+.passion{
+  color: green;
+}
+.logistics{
+  color: green;
+}
+.paragraph2b{
+  width: 520px;
+  margin-top: -5px;
+}
+h3{
+  width: 260px;
+  font-size: 20px;
+  background-color: rgb(235, 183, 26);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  vertical-align: center;
+  margin-top: 50px;
+}
+.container{
+  width: 450px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.container2{
+  width: 300px;
+  display: inline-block;
+  margin-left: 150px;
+}
+section{
+  background-color: rgba(136, 131, 131, 0);
+  width: 0px;
+  padding-bottom: 0px;
+}
+footer{
+  background-color: rgb(58, 57, 57);
+  width: 300px;
+  padding-bottom: 30px;
+}

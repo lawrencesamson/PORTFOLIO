@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment4</title>
+  <style>
+    .container{
+      display: flex;
+    }
+    .header{
+      margin-top: 300px;
+      width: 400px;
+    }
+    .name{
+      display: flex;
+      width: 200px;
+    }
+    img{
+      width: 100px;
+    }
+    .gender{
+      display: flex;
+    }
+    .height{
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="header">
+      <div class="image">
+        <img src="/altschool/image/Screenshot 2025-02-03 165111.png" alt="Logo">
+      </div>
+      <div>
+        <h1 class="text-head">For Individuals</h1>
+      </div>
+      <div class="text">
+        <p>start benefitting from the wellness experience
+          for companies looking on increasing productivity, and improving
+          organisational wellness. 
+        </p>
+      </div>
+    </div>
+
+    <form>
+      <div class="name">
+        <ul>
+          <li><label for="First Name">First Name</label></li><br>
+          <li><input type="text" name="First Name" id="First Name" value="Tolu"></li>
+        </ul>
+        <div>
+          <ul>
+            <li><label for="Last Name">Last Name</label></li><br>
+            <li><input type="text" name="Last Name" id="Last Name"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gender">
+        <ul>
+          <li>
+            <label for="Gender">Gender</label><br>
+        <select>
+          <option value="" disabled selected>select here</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+          </li>
+        </ul>
+        <div>
+          <ul>
+            <li><label for="DateofBirth"></label>Date of Birth</li>
+            <li><input type="date" id="dateOfBirth" name="dateOfBirth" value="2023-01-01"></li</li>
+          </ul>
+        </div>
+      </div>
+      <div class="height">
+        <ul>
+          <li><label for="weight">Weight</label></li>
+          <li><input type="text" id="weight" name="weight"></li>
+        </ul>
+        <div>
+          <ul>
+            <li><label for="height">Height</label></li>
+            <li><input type="text" id="height" name="height"></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <ul>
+          <li><label for="activitylevel">Activity Level</label></li>
+          <select>
+            <option value="" disabled selected>select here</option>
+          </select>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><label for="password">Password</label></li>
+          <li><input type="password" id="password" name="password"></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><button type="register">Register</button></li>
+        </ul>
+      </div>
+      <div>
+        <footer>
+          <p>By clicking Register you agree to our <span class="terms">Terms Of Use</span> 
+            and <span class="privacy">Privacy Policy</span>
+          </p>
+        </footer>
+      </div>
+    </form>
+  </div>
+ 
+</body>
+</html>
