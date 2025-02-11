@@ -1,20 +1,45 @@
+*  {
+  box-sizing:border-box;
+}
 body{
-  background-color: rgba(32,32,32,255);
+  background-color: grey;
 }
-h1,p{
-  font-family: sans-serif;
+body p, h1{
+  font-family: roboto, sans-serif;
 }
-h1{
-  background-color: rgba(250,0,151,255);
-  width: 350px;
-  height:70px ;
+.heading{
+  background-color: red;
+  width: 280px;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 4px;
+  position: absolute;
+  top: 360px;
+  height: 70px;
+  vertical-align: middle;
 }
-p{
+.paragraph{
   background-color: white;
-  width: 350px;
-  margin-top: -30px;
-  border-radius: 8px;
+  width: 325px;
   text-align: center;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width:600px) and (orientation: portrait),
+(min-width:601px) and (max-width:991px) and (orientation: portrait),
+(min-width:992px) and (max-width:1199px) and (orientation: portrait),
+(min-width:1200px) and (orientation: portrait),
+(max-width: 600px) and (orientation: landscape),
+(min-width: 601px) and (max-width: 991px) and (orientation: landscape),
+(min-width: 992px) and (max-width: 1199px) and (orientation: landscape),
+(min-width: 1200px) and (orientation: landscape) {
+  .contain {
+    width: 100%;
+  }
 }
