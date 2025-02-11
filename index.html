@@ -11,7 +11,7 @@
       box-sizing: border-box;
     }
     body{
-      font-family: roboto, sans-serif;
+      font-family: 'roboto', sans-serif;
       background-color: rgba(159, 159, 212, 0.477);
     }
     .container{
@@ -52,53 +52,18 @@
       padding-left: 5px;
     }
   
-    @media (max-width:600px) and (orientation: portrait){
-      .contain{
-        width: 100%;
-      }
-    }
-      
-    @media (min-width:601px) and (max-width:991px) and (orientation: portrait){
-      .contain{
-        width:100%
-      }
-    }
-      
-    @media (min-width:992px) and (max-width:1199px) and (orientation: portrait){
-      .contain{
-        width:100%
-      }
-    }
-      
-    @media (min-width:1200px) and (orientation: portrait){
-      .contain{
-        width:100%
-      }
-    }
-      
-    @media (max-width: 600px) and (orientation: landscape) {
-    .contain{
-        width: 100%;
-    }
-    }
-
-    @media (min-width: 601px) and (max-width: 991px) and (orientation: landscape) {
-    .contain{
-        width: 100%;
-    }
-    }
-
-    @media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
-    .contain{
-        width: 100%;
-    }
-    }
-
-    @media (min-width: 1200px) and (orientation: landscape) {
-    .contain{
-        width: 100%;
-    }
- `   }
+    @media (max-width:600px) and (orientation: portrait),
+(min-width:601px) and (max-width:991px) and (orientation: portrait),
+(min-width:992px) and (max-width:1199px) and (orientation: portrait),
+(min-width:1200px) and (orientation: portrait),
+(max-width: 600px) and (orientation: landscape),
+(min-width: 601px) and (max-width: 991px) and (orientation: landscape),
+(min-width: 992px) and (max-width: 1199px) and (orientation: landscape),
+(min-width: 1200px) and (orientation: landscape) {
+  .contain {
+    width: 100%;
+  }
+}
   </style>
 </head>
 <body>
