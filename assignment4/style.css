@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'roboto', sans-serif;
+  background-color: rgb(244, 244, 244);
+}
+.contain{
+  display: flex;
+}
+.header{
+  margin-top: 300px;
+  width: 400px;
+}
+.name{
+  display: flex;
+  width: 200px;
+}
+ul{
+  list-style-type: none;
+}
+img{
+  width: 100px;
+}
+.gender{
+  display: flex;
+}
+.height{
+  display: flex;
+}
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.reg{
+  margin-left: 41px;
+}
+
+.border1{
+  border: 8px;
+  padding: 8px;
+  background-color: 159, 194, 159;
+}
+.bordercolor{
+  border: 2px solid rgb(159, 194, 159);
+  padding: 8px;
+}
+.border2{
+border: 3px;
+padding: 8px;
+background-color: 159, 194, 159;
+}
+.border3{
+  border: 3px;
+  padding: 8px 48px;
+  background-color: 159, 194, 159;
+}
+.border4{
+  border: 3px;
+  padding: 8px 48px;
+  background-color: 159, 194, 159;
+}
+.border5{
+  border: 3px;
+  padding: 8px 37px;
+  background-color: 159, 194, 159;
+}
+.terms{
+  color: green;
+  text-decoration: underline;
+}
+.privacy{
+  color: green;
+  text-decoration: underline;
+}
+.button1{
+  cursor: pointer;
+  border: 1px solid;
+  padding: 8px 173px;
+  background-color: green;
+}
+
+@media (max-width:600px) and (orientation: portrait),
+(min-width:601px) and (max-width:991px) and (orientation: portrait),
+(min-width:992px) and (max-width:1199px) and (orientation: portrait),
+(min-width:1200px) and (orientation: portrait),
+(max-width: 600px) and (orientation: landscape),
+(min-width: 601px) and (max-width: 991px) and (orientation: landscape),
+(min-width: 992px) and (max-width: 1199px) and (orientation: landscape),
+(min-width: 1200px) and (orientation: landscape) {
+  .contain {
+    width: 100%;
+  }
+}
