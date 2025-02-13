@@ -1,0 +1,205 @@
+*/{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.line1{
+  background-color: rgb(218, 217, 217);
+  padding: 1px;
+}
+.account{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-top: 8px;
+}
+.container{
+
+}
+body{
+  font-family: 'roboto' sans-serif;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-section{
+  display: flex;
+  width: 300px;
+  align-items: center;
+}
+img{
+  width: 30px;
+  height: 30px;
+  padding-top: 28px;
+}
+.right-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  margin-top: 20px;
+  text-align: center;
+}
+.wps{
+  width: 300px;
+}
+.section2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.free{
+  margin-left:50px ;
+  padding-left: 35px;
+}
+.name{
+  display: flex;
+  width: 200px;
+  margin-left: -38px;
+  align-items: center;
+}
+.firstnameinput{
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px 8px;
+  background-color: rgb(222, 221, 221);
+  border-radius: 4px
+}
+.lastnamehead{
+  margin-left: -20px;
+}
+.lastnameinput{
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px 8px;
+  background-color: rgb(222, 221, 221);
+  border-radius: 4px
+}
+.emailhead{
+  margin: -10px  -38px;
+  display: flex;
+}
+.emailinput{
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px 45px;
+  background-color: rgb(222, 221, 221);
+  border-radius: 4px;
+}
+.cardnumber{
+  margin: -10px -38px;
+}
+.cardnumberinput{
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px 108px;
+  background-color: rgb(222, 221, 221);
+  border-radius: 4px
+}
+.pusher{
+  padding-top: 90px;
+}
+.puser{
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 145px;
+  background-color: green;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.support{
+  text-decoration: underline;
+}
+.buy{
+  color: white;
+}
+.need{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stripe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.powered{
+  outline: 1px solid rgba(0, 0, 0, 0.2) ;
+  background-color: grey;
+  border-radius: 4px;
+  padding: 1px 2px;
+  color: white;
+}
+.by{
+  font-size: xx-small;
+  vertical-align: middle;
+}
+.question{
+
+}
+.coop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.last-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space;
+}
+.kirk-imagehead{
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+}
+.kirk-image{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius:10px ;
+}
+.kirk-name{
+  width: 100px;
+  padding-top: 15px;
+  padding-left: 30px;
+  object-fit: cover;
+  height: 100px;
+}
+.coop{
+  width: 300px;
+  padding-left: 200px;
+}
+.dot{
+  width: 20px;
+  height: 20px;
+  padding-top: 125px;
+  border-radius: 10px;
+  color: red;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  padding-left:-30px;
+}
+.free{
+  background-color: rgb(11, 113, 238);
+  margin-left: 30px;
+}
+
+@media (max-width:600px) and (orientation: portrait),
+(min-width:601px) and (max-width:991px) and (orientation: portrait),
+(min-width:992px) and (max-width:1199px) and (orientation: portrait),
+(min-width:1200px) and (orientation: portrait),
+(max-width: 600px) and (orientation: landscape),
+(min-width: 601px) and (max-width: 991px) and (orientation: landscape),
+(min-width: 992px) and (max-width: 1199px) and (orientation: landscape),
+(min-width: 1200px) and (orientation: landscape) {
+  .contain {
+    width: 100%;
+  }
+}

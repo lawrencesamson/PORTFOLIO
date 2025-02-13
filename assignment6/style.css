@@ -1,0 +1,144 @@
+*/{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'roboto', sans-serif;
+}
+.top-section{
+  display: flex;
+  justify-content: space-between;
+}
+.left-section{
+  display: flex;
+  width: 200px;
+}
+.scissor-image{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.middle-section{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.right-section{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.optimize{
+  display: flex;
+  justify-content: center;
+}
+.Sign-up{
+  display: flex;
+  justify-content: center;
+}
+.flex2{
+  display: flex;
+  justify-content: space-between;
+  vertical-align: baseline;
+}
+.right-section2{
+  display: flex;
+  width: 800px;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+.personalize{
+  display: flex;
+  justify-content: center;
+}
+.seamless{
+  display: flex;
+  justify-content: center;
+}
+.holder{
+  display: flex;
+  justify-content: space-between;
+}
+.price-perfect{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.basic{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 20px;
+}
+.pricing{
+  display: flex;
+  justify-content: center;
+}
+.url-form{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.domain2{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.trim{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.agree{
+  display: flex;
+  justify-content: center;
+}
+.alias{
+  padding-left: 20px;
+}
+.faq{
+  display: flex;
+  justify-content: center;
+}
+faq-question{
+  display: flex;
+  justify-content: center;
+}
+.qanda{
+  display: flex;
+  justify-content: center;
+}
+.revolutionizing{
+  display: flex;
+  justify-content: center;
+}
+.get-started{
+display: flex;
+justify-content: center;
+}
+.footer{
+display: flex;
+justify-content: space-around;
+}
+.second{
+display: flex;
+justify-content: space-evenly;
+margin-left: 100px;
+}
+.last{
+display: flex;
+justify-content: end;
+}
+
+@media (max-width:600px) and (orientation: portrait),
+(min-width:601px) and (max-width:991px) and (orientation: portrait),
+(min-width:992px) and (max-width:1199px) and (orientation: portrait),
+(min-width:1200px) and (orientation: portrait),
+(max-width: 600px) and (orientation: landscape),
+(min-width: 601px) and (max-width: 991px) and (orientation: landscape),
+(min-width: 992px) and (max-width: 1199px) and (orientation: landscape),
+(min-width: 1200px) and (orientation: landscape) {
+  .contain {
+    width: 100%;
+  }
+}
