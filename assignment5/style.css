@@ -145,10 +145,13 @@ img{
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-right: -600px;
+}
+.coop2{
+  margin-right: -900px;
 }
 .last-section{
   display: flex;
-  flex-direction: row;
   justify-content: space;
 }
 .kirk-imagehead{

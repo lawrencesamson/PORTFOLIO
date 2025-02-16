@@ -20,6 +20,23 @@ body{
   height: 50px;
   object-fit: cover;
 }
+.image-logo{
+  width: 18px;
+  height: 14px;
+  object-fit: cover;
+  margin-top: 4px;
+}
+.problem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+  font-size: larger;
+}
+.fab{
+  margin-right: 6px;
+
+}
 .middle-section{
   display: flex;
   justify-content: space-between;
@@ -122,15 +139,22 @@ justify-content: center;
 .footer{
 display: flex;
 justify-content: space-around;
+
 }
 .second{
 display: flex;
-justify-content: space-evenly;
-margin-left: 100px;
+justify-content: space-around;
+
 }
 .last{
 display: flex;
-justify-content: end;
+justify-content: space-around;
+}
+.features{
+ padding-right: ;
+}
+.legal{
+  
 }
 
 @media (max-width:600px) and (orientation: portrait),
