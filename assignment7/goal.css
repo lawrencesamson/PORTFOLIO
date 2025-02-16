@@ -2,19 +2,8 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
   background-color: rgb(167, 201, 167);
-}
-.passport{
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-li{
-  list-style-type: none;
-}
-a{
-  text-decoration: none;
 }
 .main{
   display: flex;
@@ -24,11 +13,10 @@ a{
   width: 100%;
 }
 .contain{
-  max-width: 500px;
-  width: 50%;
+  max-width: 800px;
 }
-ul{
-  margin-left: -38px;
+p{
+  line-height: 3.6;
 }
 
 @media (max-width:600px) and (orientation: portrait),

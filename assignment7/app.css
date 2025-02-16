@@ -2,34 +2,64 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'roboto', sans-serif;
-  background-color: rgb(167, 201, 167);
+  font-family: "roboto", sans-serif;
 }
-.passport{
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+.container{
+  width: 100%;
+  height: 100vh;
 }
-li{
-  list-style-type: none;
+.top{
+  display: flex;
+  justify-content: end;
 }
-a{
-  text-decoration: none;
+.image{
+  width: 600px;
 }
-.main{
+.left{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%;
+  margin-left: 200px;
+  margin-top: -100px;
 }
-.contain{
-  max-width: 500px;
-  width: 50%;
+.right{
+  margin-top: -150px;
+  width: 800px;
 }
-ul{
-  margin-left: -38px;
+li{
+  list-style-type: none;
+  margin-left: -59px;
+  padding: 20px;
+  padding-right: 150px;
 }
+.last{
+  margin-right: -400px;
+}
+.gender{
+  padding-right: -800px;
+}
+.table1{
+  display: flex;
+}
+.table2{
+  display: flex;
+}
+.table3{
+  display: flex;
+}
+.table4{
+  display: flex;
+}
+.table5{
+  display: flex;
+}
+.table6{
+  display: flex;
+}
+
+
 
 @media (max-width:600px) and (orientation: portrait),
 (min-width:601px) and (max-width:991px) and (orientation: portrait),
