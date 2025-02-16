@@ -4,6 +4,9 @@
 body{
   font-family: 'roboto', sans-serif;
 }
+.url{
+  color: rgb(20, 20, 207);
+}
 .top-section{
   display: flex;
   justify-content: space-between;
