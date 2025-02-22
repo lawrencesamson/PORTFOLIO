@@ -1,39 +1,50 @@
 * {
   box-sizing: border-box;
 }
-.container{
+
+.container {
   position: relative;
 }
-.inner{
 
+.top {
+  display: flex;
+  justify-content: space-evenly;
 }
-.app{
+
+.app {
   display: flex;
   justify-content: space-evenly;
   width: 600px;
 }
-.top{
-  display: flex;
-  justify-content: space-evenly;
-  flex-grow: 1;
-}
-.slcontain{
+
+.slcontain {
   display: flex;
   justify-content: space-evenly;
   width: 300px;
 }
-.bellcontain{
+
+.bellcontain {
   display: flex;
   justify-content: space-evenly;
   width: 50px;
 }
-.border{
+
+.border {
   padding: 1px;
   background-color: black;
 }
-.left{
-  position: relative;
-  left: 0;
-  top: 0;
-  flex-shrink: 3;
+
+.content {
+  display: flex;
+  margin-top: 20px; /* Adjust space between top and content */
+}
+
+.left {
+  width: 200px; /* Adjust width as needed */
+  margin-right: 20px; /* Adjust space between left and inner */
+}
+
+.inner {
+  flex-grow: 1;
+  
 }
