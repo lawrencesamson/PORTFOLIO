@@ -1,39 +1,93 @@
 * {
   box-sizing: border-box;
 }
-.container{
-  position: relative;
+.conainer{
+  position: fixed;
+  top: 0;
 }
-.inner{
-
-}
-.app{
-  display: flex;
-  justify-content: space-evenly;
-  width: 600px;
+.sidebar{
+  position: fixed;
+  top: 0;
+  margin-top: 20px;
 }
 .top{
   display: flex;
-  justify-content: space-evenly;
-  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 50px;
 }
-.slcontain{
+.app{
   display: flex;
-  justify-content: space-evenly;
-  width: 300px;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
 }
-.bellcontain{
+.bell-contain{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  padding-left: 180px;
+}
+.sl{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 180px;
+}
+.sl-button{
+  padding-right: 50px;
+}
+.enrol-container{
+  position: relative;
+  left: 230px;
+  top: 80px;
+}
+.asic-head{
+  display: flex;
+}
+.asic-container{
+  display: flex;
+}
+.asic{
   width: 50px;
 }
-.border{
-  padding: 1px;
-  background-color: black;
+.bppe{
+  width: 50px;
 }
-.left{
-  position: relative;
-  left: 0;
-  top: 0;
-  flex-shrink: 3;
+.bppe-head{
+  display: flex;
+}
+.search{
+  margin-top: 20px;
+}
+.search{
+  margin-bottom: 50px;
+}
+.grid-container img{
+  width: 300px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  gap:25px;
+}
+.sidebar{
+
+}
+
+
+@media (max-width:600px) and (orientation: portrait),
+(min-width:601px) and (max-width:991px) and (orientation: portrait),
+(min-width:992px) and (max-width:1199px) and (orientation: portrait),
+(min-width:1200px) and (orientation: portrait),
+(max-width: 600px) and (orientation: landscape),
+(min-width: 601px) and (max-width: 991px) and (orientation: landscape),
+(min-width: 992px) and (max-width: 1199px) and (orientation: landscape),
+(min-width: 1200px) and (orientation: landscape) {
+  .contain {
+    width: 100%;
+  }
 }
